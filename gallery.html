@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Adam Najmi's photography, friendships, university memories and contact information.">
+  <title>Gallery &amp; Contact | Adam Najmi</title>
+    <!-- Apply the saved theme before the page appears to prevent a flash. -->
+  <script>
+    (function () {
+      try {
+        const theme = localStorage.getItem('adam-najmi-theme');
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (error) { /* Dark theme remains the default. */ }
+    })();
+  </script>
+<link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="index.html">ADAM NAJMI<span class="dot">.</span></a>
+    
+    <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="background.html">Background</a>
+      <a href="education.html">Education</a><a href="experience.html">Experience</a>
+      <a href="gallery.html" aria-current="page">Gallery &amp; Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to light mode" title="Switch to light mode">
+        <span class="theme-icon" aria-hidden="true">☀</span>
+        <span class="theme-label">Light mode</span>
+      </button>
+      <button type="button" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    </div>
+  </div>
+<!-- Live Malaysia time appears on every page (Asia/Kuching, UTC+8). -->
+<div class="site-time-bar" aria-label="Local date and time in Sarawak, Malaysia">
+  <div class="container site-time-inner">
+    <span class="time-location"><span class="time-dot" aria-hidden="true"></span> Local Time <span class="time-region">· Sarawak, Malaysia (MYT)</span></span>
+    <span class="time-reading"><time class="site-date" data-local-date>Loading date</time><span class="time-divider" aria-hidden="true"> · </span><time class="site-time clock" data-clock>--:--:--</time></span>
+  </div>
+</div>
+</header>
+  <main id="main">
+    <section class="page-intro gallery-intro"><div class="container">
+      <span class="eyebrow">04 / Gallery &amp; contact</span>
+      <h1>Collected<br><em>moments.</em></h1>
+      <p>A small collection of the people, places and experiences that tell my story.</p>
+      <a class="text-arrow" href="#photos">Explore photographs <span aria-hidden="true">↗</span></a>
+    </div></section>
+    <section class="section" id="photos"><div class="container">
+      <div class="section-heading"><span class="eyebrow">The photo journal</span>
+        <h2>Life through my lens.</h2>
+        <p>From quiet landscapes to the friendships and experiences that make university life memorable.</p>
+      </div>
+      <div class="gallery-filters" role="group" aria-label="Filter gallery photographs">
+        <button class="gallery-filter active" type="button" data-gallery-filter="all" aria-pressed="true">All photos <span>04</span></button>
+        <button class="gallery-filter" type="button" data-gallery-filter="portrait" aria-pressed="false">Portrait</button>
+        <button class="gallery-filter" type="button" data-gallery-filter="photography" aria-pressed="false">Photography</button>
+        <button class="gallery-filter" type="button" data-gallery-filter="memories" aria-pressed="false">Memories</button>
+        <button class="gallery-filter" type="button" data-gallery-filter="activities" aria-pressed="false">Activities</button>
+      </div>
+      <div class="gallery-editorial" id="photo-grid">
+        <figure class="photo-card photo-card-portrait" data-gallery-category="portrait">
+          <button class="photo-open" type="button" data-photo-src="images/adam-portrait.jpg" data-photo-alt="Portrait of Adam wearing glasses, a black shirt and tie against a light background" data-photo-caption="01 / The person behind the story — Adam Najmi." aria-label="Enlarge portrait photo">
+            <img src="images/adam-portrait.jpg" alt="Adam wearing glasses, a black shirt and tie, photographed against a light background" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption><span class="photo-num">01 / Portrait</span><strong>The person behind the story</strong><small>A little introduction to Adam Najmi.</small></figcaption>
+        </figure>
+        <figure class="photo-card photo-card-landscape" data-gallery-category="photography">
+          <button class="photo-open" type="button" data-photo-src="images/adam-photography.jpg" data-photo-alt="Coastal landscape with beach, sea, forested mountain and dramatic clouds" data-photo-caption="02 / Captured by Adam — a peaceful coastal landscape." aria-label="Enlarge landscape photography">
+            <img src="images/adam-photography.jpg" alt="Adam's landscape photograph of a sandy beach, blue sea, green mountain and cloud-filled sky" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption><span class="photo-num">02 / Photography</span><strong>Captured by Adam</strong><small>Finding beauty in nature and still moments.</small></figcaption>
+        </figure>
+        <figure class="photo-card photo-card-landscape" data-gallery-category="memories">
+          <button class="photo-open" type="button" data-photo-src="images/deans-list-friends.jpg" data-photo-alt="Adam and four friends taking a group selfie at an academic celebration" data-photo-caption="03 / Dean's List memories — celebrating milestones with friends." aria-label="Enlarge Dean's List memory photo">
+            <img src="images/deans-list-friends.jpg" alt="Adam and his friends taking a selfie at an academic celebration" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption><span class="photo-num">03 / Memories</span><strong>Celebrating together</strong><small>Dean's List memories and meaningful friendships.</small></figcaption>
+        </figure>
+        <figure class="photo-card photo-card-landscape" data-gallery-category="activities">
+          <button class="photo-open" type="button" data-photo-src="images/knowledge-camp.jpg" data-photo-alt="Group photo with participants and mentors during a knowledge camp activity" data-photo-caption="04 / Knowledge Camp — memorable moments during internship at Pustaka Negeri Sarawak." aria-label="Enlarge Knowledge Camp photo">
+            <img src="images/knowledge-camp.jpg" alt="Mentors and young participants posing together during a Knowledge Camp programme" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption><span class="photo-num">04 / Activities</span><strong>Knowledge Camp</strong><small>Learning, teamwork and helping young participants.</small></figcaption>
+        </figure>
+      </div>
+      <p class="gallery-tip">Select any photograph to see a larger version. Use the filters to explore each category.</p>
+    </div></section>
+    <section class="section section-alt" id="contact"><div class="container">
+      <div class="contact-editorial"><div>
+        <span class="eyebrow">Stay connected</span>
+        <h2>Let's keep<br><em>in touch.</em></h2>
+        <p>Want to see more photos, videos and moments from my journey? Connect with me on Instagram, TikTok, email or phone.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://www.instagram.com/njmi.dams/" target="_blank" rel="noopener noreferrer" aria-label="Visit Adam Najmi on Instagram, opens in a new tab">Instagram <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://www.tiktok.com/@laksasarawak83" target="_blank" rel="noopener noreferrer" aria-label="Visit Adam Najmi on TikTok, opens in a new tab">TikTok <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="mailto:adamnajmi28@gmail.com" aria-label="Email Adam Najmi">Email <span aria-hidden="true">✉</span></a>
+          <a class="button button-secondary" href="tel:+601124349958" aria-label="Call Adam Najmi">Call <span aria-hidden="true">↗</span></a>
+        </div>
+      </div><div class="contact-detail">
+        <span class="contact-icon" aria-hidden="true">◎</span>
+        <span class="eyebrow">Social media</span>
+        <h3>Instagram</h3>
+        <p><a href="https://www.instagram.com/njmi.dams/" target="_blank" rel="noopener noreferrer">@njmi.dams ↗</a></p>
+        <div class="contact-divider"></div>
+        <h3>TikTok</h3>
+        <p><a href="https://www.tiktok.com/@laksasarawak83" target="_blank" rel="noopener noreferrer">@laksasarawak83 ↗</a></p>
+        <div class="contact-divider"></div>
+        <h3>Email</h3>
+        <p><a href="mailto:adamnajmi28@gmail.com">adamnajmi28@gmail.com ✉</a></p>
+        <div class="contact-divider"></div>
+        <h3>Phone</h3>
+        <p><a href="tel:+601124349958">+60 11-2434 9958 ↗</a></p>
+        <div class="contact-divider"></div>
+        <span class="eyebrow">Location</span>
+        <p>Lundu, Sarawak, Malaysia</p>
+        <div class="contact-divider"></div>
+        <span class="eyebrow">Local time · Sarawak</span>
+        <p><strong class="clock" data-clock>--:--:--</strong></p>
+      </div></div>
+    </div></section>
+  </main>
+  <dialog id="photo-dialog" class="photo-dialog" aria-label="Expanded gallery photograph">
+    <button type="button" class="dialog-close" aria-label="Close image">✕</button>
+    <img id="dialog-img" src="images/adam-photography.jpg" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
+  <footer class="footer"><div class="container footer-inner"><span>© <span data-year>2026</span> Adam Najmi · Personal profile website</span><span>Created by <strong>Norton</strong> for IMD318 · UiTM Sarawak</span></div></footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Background information about Adam Najmi.">
+  <title>Background | Adam Najmi</title>
+    <!-- Apply the saved theme before the page appears to prevent a flash. -->
+  <script>
+    (function () {
+      try {
+        const theme = localStorage.getItem('adam-najmi-theme');
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (error) { /* Dark theme remains the default. */ }
+    })();
+  </script>
+<link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="index.html">ADAM NAJMI<span class="dot">.</span></a>
+    
+    <nav id="primary-nav" class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="background.html" aria-current="page">Background</a>
+<a href="education.html">Education</a>
+<a href="experience.html">Experience</a>
+<a href="gallery.html">Gallery & Contact</a></nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to light mode" title="Switch to light mode">
+        <span class="theme-icon" aria-hidden="true">☀</span>
+        <span class="theme-label">Light mode</span>
+      </button>
+      <button type="button" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    </div>
+  </div>
+<!-- Live Malaysia time appears on every page (Asia/Kuching, UTC+8). -->
+<div class="site-time-bar" aria-label="Local date and time in Sarawak, Malaysia">
+  <div class="container site-time-inner">
+    <span class="time-location"><span class="time-dot" aria-hidden="true"></span> Local Time <span class="time-region">· Sarawak, Malaysia (MYT)</span></span>
+    <span class="time-reading"><time class="site-date" data-local-date>Loading date</time><span class="time-divider" aria-hidden="true"> · </span><time class="site-time clock" data-clock>--:--:--</time></span>
+  </div>
+</div>
+</header>
+  <main id="main"><section class="page-intro"><div class="container"><span class="eyebrow">01 / Personal background</span><h1>The person behind<br>the name.</h1><p>A little about my roots, personality and interests.</p></div></section>
+<section class="section favorite-music-section" id="favourite-music" aria-labelledby="favourite-music-heading">
+  <div class="container">
+    <div class="music-intro">
+      <span class="eyebrow">My playlist</span>
+      <h2 id="favourite-music-heading">Favourite Music</h2>
+      <p>When I want to relax, this is one of the songs I like listening to.</p>
+    </div>
+    <div class="music-card">
+      <div class="music-note-art" aria-hidden="true"><span>♫</span></div>
+      <div class="music-detail">
+        <span class="music-tag">ADAM'S FAVOURITE SONG</span>
+        <h3>Shape of My Heart</h3>
+        <p>Backstreet Boys</p>
+        <audio class="music-audio" controls preload="metadata" aria-label="Play Shape of My Heart by Backstreet Boys">
+          <source src="audio/shape-of-my-heart.mp3" type="audio/mpeg">
+          Your browser does not support audio playback.
+        </audio>
+        <small>Press Play to listen. The music won't start automatically.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section"><div class="container"><div class="background-portrait"><img src="images/adam-portrait.jpg" alt="Adam Najmi wearing glasses, a black shirt and tie"><div><span class="eyebrow">Meet Adam</span><h2>Adam Najmi</h2><p>A 20-year-old Information Management student from Lundu, Sarawak, with a passion for music and photography.</p></div></div></div><div class="container content-grid">
+  <article class="feature"><h2>Quick facts</h2><dl class="info-list"><div class="info-row"><dt>Name</dt><dd>Adam Najmi</dd></div><div class="info-row"><dt>Age</dt><dd>20</dd></div><div class="info-row"><dt>Hometown</dt><dd>Lundu, Sarawak</dd></div><div class="info-row"><dt>Favourite colour</dt><dd>Black</dd></div><div class="info-row"><dt>University</dt><dd>UiTM Sarawak, Samarahan</dd></div><div class="info-row"><dt>Programme</dt><dd>CDIM110</dd></div></dl></article>
+  <article class="feature"><h2>A few things about me</h2><p>I am someone who takes important matters seriously while appreciating the calmer side of life. When I have time to relax, I enjoy listening to music and taking photos.</p><h2>My interests</h2><ul><li>Listening to music</li><li>Taking photographs</li><li>Enjoying relaxed moments</li></ul><h2>My style</h2><p>Simple, calm and a fan of black.</p></article>
+</div></section></main>
+  <footer class="footer"><div class="container footer-inner"><span>© <span data-year>2026</span> Adam Najmi · Personal profile website</span><span>Created by <strong>Norton</strong> for IMD318 · UiTM Sarawak</span></div></footer>
+</body></html>
